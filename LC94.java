@@ -18,7 +18,7 @@
 
 import java.util.*;
 
-class Solution {
+class LC94 {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         inOrder(root, res);
