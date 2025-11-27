@@ -14,7 +14,7 @@
  * }
  */
 
-//LeetCode 94 - Binary Tree Inorder Traversal
+//LeetCode 94 - Binary Tree Inorder Traversal.
 
 import java.util.*;
 
