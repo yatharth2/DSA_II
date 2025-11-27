@@ -12,8 +12,8 @@ class Node{
 
 public class InOrderBT {
 
-    static void inOrder (Node node, ArrayList<integer> res){
-        if (Node == null){
+    static void inOrder (Node node, ArrayList<Integer> res){
+        if (node == null){
             return;
         }
 
@@ -33,8 +33,8 @@ public class InOrderBT {
         root.right.left = new Node(6);
         root.right.right = new Node(7);
 
-        ArrayList<integer> res = new ArrayList<>;
-        InOrder (root, res);
+        ArrayList<Integer> res = new ArrayList<>;
+        inOrder (root, res);
 
         for (int node : res )
             System.out.println(node + " ");
