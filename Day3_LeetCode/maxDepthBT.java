@@ -1,4 +1,4 @@
- import java.util.*;
+import java.util.*;
 
 class Node {
     int data;
@@ -69,4 +69,3 @@ public class maxDepthBT {
         System.out.println("Recursive max depth: " + maxDepth(root));            // expected 3
         System.out.println("Iterative max depth: " + maxDepthIterative(root));  // expected 3
     }
-}
